@@ -4,7 +4,7 @@ A tool for calculating difficulty metrics and generating analytic reports for Si
 
 ## Installation
 ```bash
-git clone ...
+git clone https://github.com/mrsobakin/scm.git
 cd scm
 pip install .
 ```
