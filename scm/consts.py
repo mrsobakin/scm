@@ -17,24 +17,24 @@ metrics_minmax = {
         'mean_module_score_metric': (0.8, 0.65),
         'module_drop_on_rate_metric': (0.03, 0.065),
         'time_spent_metric' : (0.5, 0.99),
-        'avg_try_count': (9, 12),
-        'done_rate_by_media': (0.2, 0.16),
-        'done_rate_by_prev_element_metric': (0.65, 0.56),
-        'done_in_first_try_rate_metric': (0.55, 0.45),
-        'avg_solve_improvement_time_metric': (35, 50),
-        'time_between_tries_clip_metric': (7, 9)
+#        'avg_try_count': (9, 12),
+#        'done_rate_by_media': (0.2, 0.16),
+        'done_rate_by_prev_element_metric': (0.8, 0.685),
+#        'done_in_first_try_rate_metric': (0.55, 0.45),
+#        'avg_solve_improvement_time_metric': (35, 50),
+        'time_between_tries_clip_metric': (3.5, 4.89)
     },
     2: {                         # Green    Red
         'module_conversion_metric': (0.85, 0.61),
         'mean_module_score_metric': (0.75, 0.6),
         'module_drop_on_rate_metric': (0.06, 0.1),
         'time_spent_metric' : (0.65, 0.99),
-        'avg_try_count': (3.25, 4),
-        'done_rate_by_media': (0.25, 0.2),
-        'done_rate_by_prev_element_metric': (0.56, 0.5),
-        'done_in_first_try_rate_metric': (0.4, 0.3),
-        'avg_solve_improvement_time_metric': (47, 53),
-        'time_between_tries_clip_metric': (16, 17)
+#        'avg_try_count': (3.25, 4),
+        'done_rate_by_media': (0.35, 0.28),
+        'done_rate_by_prev_element_metric': (0.6, 0.5),
+        'done_in_first_try_rate_metric': (0.54, 0.46),
+        'avg_solve_improvement_time_metric': (21, 26),
+        'time_between_tries_clip_metric': (8, 10)
     },
     3: {                         # Green    Red
         'module_conversion_metric': (0.9, 0.82),
